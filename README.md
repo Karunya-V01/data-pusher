@@ -27,7 +27,7 @@ JWT_SECRET=<your-secret-key>
 
 Start the server:
 
-npm start
+node src/app.js
 
 The server will run at:
 
@@ -130,5 +130,4 @@ Notes
     Only Admin can create Accounts, Destinations, and invite new users.
 
     Normal users have restricted access (view/update only).
-
 
